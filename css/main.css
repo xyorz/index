@@ -50,7 +50,8 @@ h2{
 }
 .background4{
 	z-index: -4;
-	background-image:url(../img/p0.jpg);
+	background-image:url(../img/p4.jpg);
+	background-position: 0 -100px;
 }
 
 .article{
