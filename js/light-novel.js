@@ -34,3 +34,25 @@ $(document).ready(function(){
 	$("#logo").animate({"left":"12%","opacity":"1"},800)
 	$(".sc1,.sc2").css({"height":window.innerHeight*.5+"px"})
 })
+
+function preLoadImg(url) { 
+var img = new Image(); 
+img.src = url; 
+} 
+
+preLoadImg("img/light-novel/li1.jpg")
+preLoadImg("img/light-novel/li2.jpg")
+preLoadImg("img/light-novel/li3.jpg")
+preLoadImg("img/light-novel/li4.jpg")
+preLoadImg("img/light-novel/li5.jpg")
+preLoadImg("img/light-novel/li6.jpg")
+preLoadImg("img/light-novel/li7.jpg")
+preLoadImg("img/light-novel/li8.jpg")
+preLoadImg("img/light-novel/li9.jpg")
+preLoadImg("img/light-novel/li10.jpg")
+preLoadImg("img/light-novel/li11.jpg")
+preLoadImg("img/light-novel/li12.jpg")
+preLoadImg("img/light-novel/li13.jpg")
+preLoadImg("img/light-novel/li14.jpg")
+preLoadImg("img/light-novel/li15.jpg")
+preLoadImg("img/light-novel/li16.jpg")
