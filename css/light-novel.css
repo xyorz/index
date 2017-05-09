@@ -16,22 +16,28 @@ a:active {
 }
 
 
-#preload-01 { background: url(../img/light-novel/li1.jpg) no-repeat -9999px -9999px; }  
-#preload-02 { background: url(../img/light-novel/li2.jpg) no-repeat -9999px -9999px; }  
-#preload-03 { background: url(../img/light-novel/li3.jpg) no-repeat -9999px -9999px; }  
-#preload-04 { background: url(../img/light-novel/li4.jpg) no-repeat -9999px -9999px; }  
-#preload-05 { background: url(../img/light-novel/li5.jpg) no-repeat -9999px -9999px; }  
-#preload-06 { background: url(../img/light-novel/li6.jpg) no-repeat -9999px -9999px; }  
-#preload-07 { background: url(../img/light-novel/li7.jpg) no-repeat -9999px -9999px; }  
-#preload-08 { background: url(../img/light-novel/li8.jpg) no-repeat -9999px -9999px; }  
-#preload-09 { background: url(../img/light-novel/li9.jpg) no-repeat -9999px -9999px; }  
-#preload-10 { background: url(../img/light-novel/li10.jpg) no-repeat -9999px -9999px; }  
-#preload-11 { background: url(../img/light-novel/li11.jpg) no-repeat -9999px -9999px; }  
-#preload-12 { background: url(../img/light-novel/li12.jpg) no-repeat -9999px -9999px; }  
-#preload-13 { background: url(../img/light-novel/li13.jpg) no-repeat -9999px -9999px; }  
-#preload-14 { background: url(../img/light-novel/li14.jpg) no-repeat -9999px -9999px; }  
-#preload-15 { background: url(../img/light-novel/li15.jpg) no-repeat -9999px -9999px; }  
-#preload-16 { background: url(../img/light-novel/li16.jpg) no-repeat -9999px -9999px; }  
+#preloader {
+/* Images you want to preload*/
+background-image: url(../img/light-novel/li1.jpg);
+background-image: url(../img/light-novel/li2.jpg);
+background-image: url(../img/light-novel/li3.jpg);
+background-image: url(../img/light-novel/li4.jpg);
+background-image: url(../img/light-novel/li5.jpg);
+background-image: url(../img/light-novel/li6.jpg);
+background-image: url(../img/light-novel/li7.jpg);
+background-image: url(../img/light-novel/li8.jpg);
+background-image: url(../img/light-novel/li9.jpg);
+background-image: url(../img/light-novel/li10.jpg);
+background-image: url(../img/light-novel/li11.jpg);
+background-image: url(../img/light-novel/li12.jpg);
+background-image: url(../img/light-novel/li13.jpg);
+background-image: url(../img/light-novel/li14.jpg);
+background-image: url(../img/light-novel/li15.jpg);
+background-image: url(../img/light-novel/li16.jpg);
+width: 0px;
+height: 0px;
+display: inline;
+}
 
 *{
 	padding: 0;
