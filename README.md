@@ -8,11 +8,11 @@
 
  本网站兼容IE9+、Firefox、Chrome内核的浏览器，使用到涉及HTML5及CSS3的最新功能。开发工具如下：
 
-SublimeText3       文本编辑器
+SublimeText3 ———— 文本编辑器
 
-GoogleChrome      Chrome浏览器
+GoogleChrome ———— Chrome浏览器
 
-IE11              IE内核浏览器
+IE11 ———— IE内核浏览器
 
  在网站开发的过程中我遇到了一些技术上的难点，下面我举出三个难点进行说明。
 
