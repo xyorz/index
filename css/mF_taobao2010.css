@@ -1,0 +1,23 @@
+/* TaTouWang URL: www.datouwang.com */
+/*=========mF_taobao2010========*/
+.body{
+	font-family: "微软雅黑";
+}
+.mF_taobao2010{ position:relative;clear: both;}
+.mF_taobao2010 .loading{ position:absolute; width:100%; height:100%; background:#fff url(img/loading.gif) center no-repeat; z-index:9;}
+.mF_taobao2010 .pic ul{position:absolute;}
+.mF_taobao2010 .pic ul li{position:relative;overflow:hidden;}
+.mF_taobao2010 .pic ul.left li{float:left;}
+.mF_taobao2010 .txt{position: absolute;left: 0;top:280px;height: 20px;width: 100%;}
+.mF_taobao2010 .txt li{position:absolute;z-index:2;bottom:0;width:100%;height:38px;line-height:38px;display:none;}/*默认标题高度*/
+.mF_taobao2010 .txt li a{display:block;position:relative;z-index:1;color:#fff;padding-left:16px;font-size:14px;font-weight:bold;text-decoration:none;}/*标题样式*/
+.mF_taobao2010 .txt li b{display:block;height:100%;width:100%;position:absolute;top:0;left:0;background:linear-gradient(to top,rgba(1,1,1,.8),rgba(1,1,1,0));}
+.mF_taobao2010 .num{position:absolute;z-index:3;bottom:10px;right:6px;}/*按钮样式*/
+.mF_taobao2010 .num li{float:left;}
+.mF_taobao2010 .num li a{border-radius:115px;float:left;color:white;width:15px;height:15px;position:relative;line-height:18px;text-align:center;margin-right:3px;cursor:pointer;background:white;text-decoration:none;}
+.mF_taobao2010 .num li.current a,.mF_taobao2010 .num li.hover a{background:#B2DFEE;color:#B2DFEE;border-color:black;font-weight:bold;line-height:20px;}
+
+#boxID{
+	height: 300px;
+	width: 100%;
+}

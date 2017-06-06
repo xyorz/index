@@ -1,28 +1,15 @@
+
 *{
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 }
-
-body{
-	font-family:"微软雅黑";
-}
-
-h1{
-	margin:20px auto 20px;
-	font-size:3.5em;
-}
-
-h2{
-	font-size:28px;
-}
-
 a:link {
 	text-decoration:none;
-	color: white;
+	color: black;
 }
 a:visited {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 a:hover {
 	text-decoration: none;
@@ -31,105 +18,697 @@ a:active {
 	text-decoration: none;
 }
 
-a{
+body{
+	font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+h2{
 	position: relative;
-	left: 30%;
-	display: block;
-	line-height: 40px;
-	height: 40px;
-	width: 40%;
-	background: rgba(102, 160, 67, .6);
+	left: 5%;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+h2 span{
+	position: relative;
+	font-size: 18px;
+	left: 20px;
+	top: 2px;
+}
+
+table{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 45%;
+	top: 36%;
+}
+
+table tr th{
+	font-weight: 400;
+	font-size: 14px;
+	color: gray;
+}
+
+.pic img{
+	width: 100%;
+	height: 100%;
+}
+
+.fa-television{
+	color: rgb(191,219,184);
+}
+
+.fa-book{
+	color: rgb(178,223,238);
+}
+
+.fa-tags{
+	color: rgb(219,203,184);
+}
+
+#h2_hr{
+	margin: 20px 0 -10px 0;
+	position: relative;
+	border: none;
+	left: 5%;
+	top: 0;
+	width: 50%;
+	height: 1.8px;
+	background: linear-gradient(to right,rgba(100,100,100,100),rgba(1,1,1,0));
+	clear: both;
 }
 
 .main{
-	top:0;
-	height:4200px;
-	width:100%;
+	width: 100%;
+	height: 3250px;
+	background: rgb(191,191,191);
 }
 
-.background,.background1,.background2,.background3,.background4{
-	position:fixed;
-	top:0;
-	height:100%;
-	width:100%;
-	-webkit-filter:grayscale(0.3) ;
-	background-size:cover;
+.section{
+	position: relative;
+	top: 0;
+	left: 10%;
+	width: 80%;
+	height: 2800px;
+	background: rgba(255,255,255,.9);
+	box-shadow: 0 0 5px 3px rgb(150,150,150);
+}
+
+
+.section div{
+	position: relative;
+	float: left;
+	border-radius: 5px;
+}
+
+.top{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background: rgb(219,203,184);
+	background-size: cover;
 	background-position: 0 ;
-	opacity: 0;
+	border-bottom: 2px solid rgb(75,75,75);
+	z-index: 1;
 }
 
-.background{
-	z-index: 0;
-	background-image:url(../img/index/p0.jpg);
+
+.top a:link{
+	color: white;
 }
-.background1{
-	z-index: -1;
-	background-image:url(../img/index/p1.jpg);
-}
-.background2{
-	z-index: -2;
-	background-image:url(../img/index/p2.jpg);
-}
-.background3{
-	z-index: -3;
-	background-image:url(../img/index/p3.jpg);
-}
-.background4{
-	z-index: -4;
-	background-image:url(../img/index/p4.jpg);
+.top a:visited{
+	color: white;
 }
 
-.article{
-	position:relative;
-	top:800px;
-	left:30%;
-	height:3200px;
-	width:40%;
-	background:rgba(248,248,248,.95);
-	text-align:center;
-	color:#5C5C5C;
-}
-.article p{
-	font-weight:300;
-	font-size:16px;
-}
-.article hr{
-	border:none;
-	background:#D1D1D1;
-	height:1.5px;
+.top a:hover{
+	background: rgba(0,0,0,.5);
+	transition: .4s;
 }
 
-#logo{
-	position:relative;
-	top:200px;
-	color:white;
-	text-align:center;
-}
-#logo hr{
-	position:relative;
-	top:-15px;
-	left:43%;
-	border:none;
-	background:white;
-	height:3px;
-	width:14%;
-	border-radius:5px;
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background: rgba(0,0,0,.5);
 }
 
-.sc{
-	position:relative;
-	left:20%;
-	height:400px;
-	width:60%;
-	padding:200px 0;
-	word-break:break-word;
+.nav ul li{
+	float: left;
+	list-style-type: none;
+	width: 10%;
 }
-.sc hr{
-	margin:20px 0;
-	position:relative;
-	border:none;
-	background:#D1D1D1;
-	height:2px;
-	width:16%;
-	left:42%;
+.nav ul li a{
+	display: block;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	line-height: 50px;
 }
+
+.nav_ul{
+	position: absolute;
+	width: 50%;
+	top:0;
+	left: 13%;
+}
+
+.login {
+	position: absolute;
+	width: 10%;
+	left: 80%;
+	top: 0;
+}
+
+.login ul li{
+	height: 50px;
+	width: 50%;
+}
+
+.login a{
+	display: block;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+}
+
+div a:hover{
+	color: skyblue;
+}
+
+.animate,.novel,.topic{
+	height: 850px;
+	width: 100%;
+	margin: 80px 0 0 0;
+}
+
+.novel,.topic{
+	top:60px;
+}
+
+.img_list{
+	left: 5%;
+	top: 40px;
+	height: 300px;
+	width: 40%;
+	background: rgb(191,219,184);
+	float: none;
+}
+
+.new_animate{
+	left: 10%;
+	top: -15px;
+	width: 50%;
+	height: 340px;
+}
+
+.new_animate div img{
+	height: auto;
+	width: 100%;
+}
+
+.new_animate div{
+	margin: 58px 7.5% 0 0;
+	width: 25%;
+	height: 35%;
+	background: rgb(219,203,184);
+	overflow: hidden;
+}
+
+.new_animate div div{
+	position: absolute;
+	bottom: 0;
+	left: -10%;
+	width: 120%;
+	height: 30%;
+	background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+}
+
+.new_animate div div p{
+	position: absolute;
+	left: 20%;
+	color: white;
+	display: block;
+	width: 60%;
+	text-align: center;
+	line-height: 45px;
+	font-size: 14px;
+}
+
+.timetable{
+	left: 5%;
+	top: 80px;
+	height: 400px;
+	width: 90%;
+}
+
+.timetable #button{
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+}
+
+.timetable #button div{
+	left: 0;
+	height: 100%;
+	width: 8%;
+	text-align: center;
+	line-height: 52px;
+	color: black;
+	font-size: 20px;
+}
+
+.timetable #button #logo{
+	text-align: left;
+	width: 20%;
+	font-size: 23px;
+}
+
+.timetable #item{
+	width: 100%;
+	height: 350px;
+}
+
+.timetable #item div{
+	top: 0;
+	left: 0;
+	height: 116.6px;
+	width: 25%;
+}
+
+.timetable #item div img{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	height: 87.4px;
+	width: 87.4px;
+	border-radius: 4px;
+	float: left;
+}
+
+.timetable #item div a{
+	position: absolute;
+	float: left;
+	color: black;
+	display: block;
+	left: 35%;
+	top: 23px;
+	height: 20px;
+	width: 100px;
+}
+
+.timetable #item div span{
+	float: left;
+	position: absolute;
+	top: 90px;
+	left: 35%;
+	float: left;
+	color: gray;
+	font-size: 14px;
+}
+
+.timetable #item div span a{
+	position: absolute;
+	left: 105%;
+	top: 2px;
+	height: 16px;
+	width: 55px;
+	border-radius: 10px;
+	background: gray;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.timetable #button #more{
+	position: relative;
+	left: 110px;
+	width: 60px;
+	height: 30px;
+	top: 13px;
+	font-size: 14px;
+	color: gray;
+	line-height: 30px;
+}
+
+.novel_news{
+	top: 40px;
+	left: 5%;
+	height: 450px;
+	width: 60%;
+	box-shadow: 0 0 0 1px gray;
+}
+
+.novel_news #novel_news_nav{
+	width: 100%;
+	height: 12%;
+}
+
+.novel_news #novel_news_nav #novel_logo{
+	height: 100%;
+	font-size: 23px;
+	left: 10px;
+	top: 4px;
+}
+
+.novel_news #novel_news_nav #novel_botton{
+	width: 80%;
+	left: 150px;
+	height: 100%;
+	top: 4px;
+}
+
+.novel_news #novel_news_nav #novel_botton div{
+	left: 20%;
+	top: 3px;
+	width: 10%;
+	text-align: center;
+	font-size: 16px;
+	color: black;
+	line-height: 30px;
+}
+
+.novel_news #novel_news_nav #novel_botton #novel_more{
+	position: relative;
+	left: 40%;
+	width: 60px;
+	height: 30px;
+	top: 5px;
+	font-size: 14px;
+	color: gray;
+	line-height: 30px;
+}
+
+.novel_news #novel_item{
+	width: 100%;
+	height: 90%;
+	background: rgba(255,255,255,.5);
+	top: -3%;
+}
+
+.novel_news #novel_item div{
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 25%;
+}
+
+
+.novel_news #novel_item div img{
+	position: relative;
+	top: 12.5%;
+	left: 10px;
+	width: 20%;
+	height: 75%;
+	border-radius: 5px;
+	float: left;
+}
+
+.novel_news #novel_item div p{
+	position: relative;
+	top: 14px;
+	word-break: break-all;
+}
+
+.novel_news #novel_item a{
+	left: 5%;
+	width: 75%;
+	position: relative;
+	float: left;
+}
+
+.novel_news #novel_item div span{
+	position: relative;
+	display: block;
+	width: 74%;
+	left: 6%;
+	top: 40px;
+	font-size: 13.5px;
+	color: gray;
+	letter-spacing: 1px;
+}
+
+.novel_rank{
+	left: 10%;
+	top: 40px;
+	height: 740px;
+	width: 25%;
+	box-shadow: 0 0 0 1px gray;
+}
+
+#rank_logo{
+	font-size: 23px;
+	left: 5px;
+	top: 3px;
+	height: 5%;
+	width: 100%;
+}
+
+#rank_list{
+	height: 95%;
+	width: 100%;
+	counter-reset:counter;
+	background: rgba(255,255,255,.5);
+}
+
+#rank_list div{
+	height: 8.35%;
+	width: 100%;
+}
+
+#rank_list div img{
+	position: relative;
+	float: left;
+	left: 40px;
+	top: -15px;
+	height: 70%;
+	width: 30%;
+	border-radius: 5px;
+}
+
+#rank_list div p{
+	position: relative;
+	top: -5px;
+	left: 15%;
+	width: 80%;
+	height: 30%;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+#rank_list .rank_list_top p{
+	float: left;
+	position: relative;
+	top: -15px;
+	left: 16%;
+	width: 50%;
+	height: 50%;
+	font-size: 14px;
+}
+
+#rank_list .rank_list_top span{
+	position: relative;
+	float: left;
+	top: -15px;
+	left: 16%;
+	width: 50%;
+	height: 25%;
+	font-size: 14px;
+	color: gray;
+}
+
+#rank_list div:before{
+	position: relative;
+	display: block;
+	left: 5px;
+	top: 18px;
+	height: 25px;
+	width: 25px;
+	background: #C0C0C0;
+	text-align: center;
+	line-height: 25px;
+	border-radius: 5px;
+	font-size: 13px;
+	content: counter(counter);
+	counter-increment: counter;
+}
+
+#rank_list .rank_list_top:before{
+	position: relative;
+	top: 30px;
+	background: rgb(243,215,181);
+}
+
+#rank_list .rank_list_top{
+	height: 13%;
+}
+
+.novel_recommand{
+	left: 5%;
+	top: -205px;
+	height: 245px;
+	width: 60%;
+	box-shadow: 0 0 0 1px gray;
+}
+
+.novel_recommand #recommand_logo{
+	font-size: 23px;
+	left: 10px;
+	height: 14%;
+	width: 100%;
+}
+
+.novel_recommand #recommand_list{
+	background: rgba(255,255,255,.5);
+	width: 100%;
+	height: 84%;
+}
+
+.novel_recommand #recommand_list div{
+	height: 100%;
+	width: 20%;
+}
+
+.novel_recommand #recommand_list div img{
+	position: relative;
+	left: 12.5%;
+	top: 10px;
+	height: 75%;
+	width: 75%;
+	border-radius: 5px;
+}
+
+.novel_recommand #recommand_list div p{
+	position: relative;
+	text-align: center;
+	display: block;
+	width: 75%;
+	height: 17%;
+	top: 5%;
+	left: 12.5%;
+	font-size: 14px;
+}
+
+.new_topic{
+	top:40px;
+	left: 5%;
+	height: 160px;
+	width: 90%;
+	box-shadow: 0 0 0 1px gray;
+}
+
+.new_topic #topic_div{
+	width: 100%;
+	height: 24%;
+}
+
+.new_topic #topic_div div{
+	height: 100%;
+	width: 25%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+.new_topic #new_list{
+	width: 100%;
+	height: 80%;
+}
+
+.new_topic #new_list div{
+	height: 100%;
+	width: 50%;
+}
+
+.new_topic #new_list div div{
+	height: 23%;
+	width: 100%;
+	line-height: 30px;
+	border-bottom: 1px dashed gray;
+	overflow: hidden;
+}
+
+.new_topic #new_list div div p{
+	position: absolute;
+	left: 10%;
+	display: block;
+	width: 40%;
+	height: 100%;
+	overflow: hidden;
+	font-size: 13px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.new_topic #new_list div div span{
+	color: gray;
+	position: absolute;
+	left: 60%;
+	font-size: 12px;
+}
+
+.topic_main{
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: 500px;
+}
+
+.topic_section{
+	margin: 10px 0 10px 5%;
+	left: 0;
+	top: -5px;
+	height: 150px;
+	width: 42.5%;
+	border: 1px solid gray;
+	border-radius: 0;
+}
+
+.topic_section img{
+	position: relative;
+	left: 10%;
+	height: 75%;
+	top: 12.5%;
+	width: 31%;
+	border-radius: 4px;
+	float: left;
+}
+
+.topic_section h3{
+	position: relative;
+	float: left;
+	font-weight: 400;
+	top: 12.5%;
+	left: 12.5%;
+	font-size: 16px;
+}
+
+footer{
+	position: relative;
+	top: 100px;
+	height: 150px;
+	width: 100%;
+	background: rgba(255,255,255,.95);
+	box-shadow: 0 0 5px 3px rgb(150,150,150);
+}
+
+footer h2{
+	position: relative;
+	top: 50px;
+	font-size: 25px;
+	width: 15%;
+	float: left;
+	left: 20%;
+
+}
+
+footer div{
+	position: relative;
+	float: left;
+	top: 0;
+	left: 15%;
+	height: 150px;
+	width: 10%;
+}
+
+footer div a{
+	width: 100px;
+	display: block;
+	position: relative;
+	top: 20px;
+	height: 20px;
+	left: 0;
+	margin: 10px 0 0 0;
+}
+
+footer div a:link{
+	color: black;
+}
+

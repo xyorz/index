@@ -1,59 +1,452 @@
 <!DOCTYPE html>
+<html>
 <head>
-<meta  charset="utf-8" />
-<title>Index</title>
-<script src="js/jquery-3.2.0.min.js"></script>
-<script src="js/index.js"></script>
-<link href="css/index.css" rel="stylesheet" type="text/css">
+	<title>Index</title>
+	<meta charset="utf-8">
+	<script src="js/myfocus-2.0.4.min.js"></script>
+	<script src="js/mF_taobao2010.js"></script>
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mF_taobao2010.css">
 </head>
-
 <body>
-<div class="background">
-	<div id="logo">
-		<h1>BUILDING</h1>
-		<hr>
-		<span>CREATE AND TRY</span>
-	</div>
-</div>
-<div class="background1">
-</div>
-<div class="background2">
-</div>
-<div class="background3">
-</div>
-<div class="background4">
-</div>
+
 <div class="main">
-	<div class="article">
-		<div class="sc" id="sc_1">
-			<h2>THE FRAMEWORK</h2>
-			<hr>
-			<p>Something should be written down here, but I hava no idea yet.</p><br><br><br>
-			<p>Click here and go to the latest HTML I had wrote.</p>
-			<p>↓</p>
-			<a href="./light-novel.html" target="_blank">Doorway</a>
+
+	<div class="top">
+		<div class="nav">
+			<div class="nav_ul">
+				<ul>
+					<li><a href="index.html" target="_blank">首页</a></li>
+					<li><a href="list.html" target="_blank">动画</a></li>
+					<li><a href="list.html" target="_blank">漫画</a></li>
+					<li><a href="list.html" target="_blank">轻小说</a></li>
+					<li><a href="list.html" target="_blank">社区</a></li>
+				</ul>
 			</div>
-		<hr>
-		<div class="sc" id="sc_2">
-			<h2>WHAT WE FIGHT FOR</h2>
-			<hr>
-			<p>Something should be written down here too, but I hava no idea yet.</p>
-		</div>
-		<hr>
-		<div class="sc" id="sc_3">
-			<h2>THE MOMENT</h2>
-			<hr>
-			<p>THIS IS A FRAMEWORK</p>
-		</div>
-		<hr>
-		<div class="sc" id="sc_4">
-			<h2>NO GAME NO LIFE</h2>
-			<hr>
-			<p>WE PLAY THE SAME BUT DIFFERENT GAME TO CONSUME OUR LIFE.</p>
+			<div class="login">
+				<ul>
+					<li><a href="signup.html" target="_blank">登录</a></li>	
+					<li><a href="signup.html" target="_blank">注册</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
+
+	<div class="section">
+		<div class="animate">
+			<h2><i class="fa fa-television" aria-hidden="true"></i> 动画 <span>Animate</span></h2>
+			<hr id="h2_hr">
+			<div class="img_list">
+				<div id="boxID">
+				    <div class="loading">
+				        <img src="img/loading.gif" alt="请稍候..." />
+				    </div>
+				    <div class="pic">
+				        <ul>
+				            <li>
+				                <a href="#">
+				                    <img src="img/1.jpg" alt="埃罗芒阿老师" />
+				                </a>
+				            </li>
+				            <li>
+				                <a href="#">
+				                    <img src="img/2.jpg" alt="从零开始的魔法书" />
+				                </a>
+				            </li>
+				            <li>
+				                <a href="#">
+				                    <img src="img/3.jpg" alt="魔法禁书目录第三季" />
+				                </a>
+				            </li>
+				            <li>
+				                <a href="#">
+				                    <img src="img/4.jpg" alt="爱丽丝与藏六" />
+				                </a>
+				            </li>
+				            <li>
+				                <a href="#">
+				                    <img src="img/5.jpg" alt="一拳超人" />
+				                </a>
+				            </li>
+				            <!-- 你可以根据需要添加更多的列 -->
+				        </ul>
+				    </div>
+				</div>
+			</div>
+			<div class="new_animate">
+				<a href="list.html" target="_blank"><div><img src="img/index/r1.jpg"><div><p>信长的忍者</p></div></div></a>
+				<a href="list.html" target="_blank"><div><img src="img/index/r2.jpg"><div><p>龙与虎</p></div></div></a>
+				<a href="list.html" target="_blank"><div><img src="img/index/r3.jpg"><div><p>游戏人生</p></div></div></a>
+				<a href="list.html" target="_blank"><div><img src="img/index/r4.jpg"><div><p>机巧少女不会受伤</p></div></div></a>
+				<a href="list.html" target="_blank"><div><img src="img/index/r5.jpg"><div><p>某科学的超电磁炮</p></div></div></a>
+				<a href="list.html" target="_blank"><div><img src="img/index/r6.jpg"><div><p>Fate/zero</p></div></div></a>
+			</div>
+			<div class="timetable">
+				<div id="button">
+					<div id="logo"><i class="fa fa-calendar" aria-hidden="true"></i> 新番时间表</div>
+					<a href=""><div id="new">最新</div></a>
+					<a href=""><div>一</div></a>
+					<a href=""><div>二</div></a>
+					<a href=""><div>三</div></a>
+					<a href=""><div>四</div></a>
+					<a href=""><div>五</div></a>
+					<a href=""><div>六</div></a>
+					<a href=""><div>日</div></a>
+					<a href=""><div id="more">更多>></div></a>
+				</div>
+				<hr>
+				<div id="item">
+					<div>
+						<img src="img/index/00.jpg">
+						<a href="list.html" target="_blank">埃罗芒阿老师</a>
+						<span>更新至<a href="">6话</a></span>
+					</div>
+					<div>
+						<img src="img/index/01.jpg">
+						<a href="list.html" target="_blank">从零开始的魔法书</a>
+						<span>更新至<a href="">6话</a></span>
+					</div>
+					<div>
+						<img src="img/index/02.jpg">
+						<a href="list.html" target="_blank">魔法禁书目录</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/03.jpg">
+						<a href="list.html" target="_blank">零之使魔</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/04.jpg">
+						<a href="list.html" target="_blank">问题儿童都来自异世界</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/05.jpg">
+						<a href="list.html" target="_blank">狼与香辛料</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/06.jpg">
+						<a href="list.html" target="_blank">我与青梅竹马的惨烈修罗场</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/07.jpg">
+						<a href="list.html" target="_blank">记录的地平线</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/08.jpg">
+						<a href="list.html" target="_blank">兽娘动物园</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/09.jpg">
+						<a href="list.html" target="_blank">灼眼的夏娜</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/10.jpg">
+						<a href="list.html" target="_blank">神不在的星期天</a>
+						<span>更新至<a href="">6话</a></span></div>
+					<div>
+						<img src="img/index/11.jpg">
+						<a href="list.html" target="_blank">魔法少女小圆</a>
+						<span>更新至<a href="">6话</a></span></div>
+				</div>
+			</div>
+		</div>
+		<div class="novel">
+			<h2><i class="fa fa-book" aria-hidden="true"></i> 轻小说 <span>Light-Novel</span></h2>
+			<hr id="h2_hr">
+			<div class="novel_news">  
+				<div id="novel_news_nav">
+					<div id="novel_logo"><i class="fa fa-newspaper-o" aria-hidden="true"></i> 要闻</div>
+					<div id="novel_botton">
+						<a href=""><div>最新</div></a>
+						<a href=""><div>热门</div></a>
+						<a href=""><div>推荐</div></a>
+						<a href=""><div id="novel_more">更多>></div></a>
+					</div>
+				</div>
+				<div id="novel_item">
+					<hr>
+					<div>
+						<img src="img/index/n1.jpg"><a href=""><p>【简讯】 震惊！时隔50年，魔法禁书目录宣布第三季动画制作决定？</p></a>
+						<span> 
+							<i class="fa fa-file" aria-hidden="true"></i> 2017-5-21 • 
+							<i class="fa fa-search" aria-hidden="true"></i> 110 • 
+							<i class="fa fa-comment" aria-hidden="true"></i> 58 • 
+							<i class="fa fa-clock-o" aria-hidden="true"></i> 昨天 17:30
+						</span>
+					</div>
+					<hr>
+					<div>
+						<img src="img/index/n2.jpg"><a href=""><p>【推荐】 2017年4月动画化轻小说推荐专题。</p></a>
+						<span> 
+							<i class="fa fa-file" aria-hidden="true"></i> 2017-5-21 • 
+							<i class="fa fa-search" aria-hidden="true"></i> 110 • 
+							<i class="fa fa-comment" aria-hidden="true"></i> 58 • 
+							<i class="fa fa-clock-o" aria-hidden="true"></i> 昨天 17:30
+						</span>
+					</div>
+					<hr>
+						<div>
+						<img src="img/index/n3.jpg"><a href=""><p>【讨论】 日系轻小说起点化是否意味着业界已经走到了尽头？</p></a>
+						<span> 
+							<i class="fa fa-file" aria-hidden="true"></i> 2017-5-21 • 
+							<i class="fa fa-search" aria-hidden="true"></i> 110 • 
+							<i class="fa fa-comment" aria-hidden="true"></i> 58 • 
+							<i class="fa fa-clock-o" aria-hidden="true"></i> 昨天 17:30
+						</span>
+					</div>
+					<hr>
+					<div>
+						<img src="img/index/n4.jpg"><a href=""><p>【消息】 狼与香辛料连载再开！18卷 & 新说：狼与羊皮纸。</p></a><span> 
+							<i class="fa fa-file" aria-hidden="true"></i> 2017-5-21 • 
+							<i class="fa fa-search" aria-hidden="true"></i> 110 • 
+							<i class="fa fa-comment" aria-hidden="true"></i> 58 • 
+							<i class="fa fa-clock-o" aria-hidden="true"></i> 昨天 17:30
+						</span>
+					</div>
+				</div> 
+
+			</div>
+			<div class="novel_rank">
+				<div id="rank_logo">
+					<i class="fa fa-bar-chart" aria-hidden="true"></i> 排行
+				</div>
+				<hr>
+				<div id="rank_list">
+					<div class="rank_list_top">
+						<a href="">
+							<img src="img/index/p1.jpg">
+							<p>狼与香辛料 新说：狼与羊皮纸</p>
+						</a>
+						<span>综合评分：4.89</span>
+					</div>
+					<div class="rank_list_top">
+						<a href="">
+							<img src="img/index/p2.jpg">
+							<p>关于我转生后成为史莱姆的那件事</p>
+						</a>
+						<span>综合评分：4.89</span>
+					</div>
+					<div class="rank_list_top">
+						<a href="">
+							<img src="img/index/p3.jpg">
+							<p>问题儿童都来自异世界？</p></a>
+						<span>综合评分：4.89</span>
+					</div>
+					<a href=""><div><p>No Game No Life 游戏人生</p></div></a>
+					<a href=""><div><p>异世界狂想曲</p></div></a>
+					<a href=""><div><p>Overlord</p></div></a>
+					<a href=""><div><p>在地下城寻求邂逅是否搞错了什么</p></div></a>
+					<a href=""><div><p>新约 魔法禁书目录</p></div></a>
+					<a href=""><div><p>零之使魔</p></div></a>
+					<a href=""><div><p>三坪房间的侵略者！？</p></div></a>		
+				</div>
+			</div>
+			<div class="novel_recommand">
+				<div id="recommand_logo"> <i class="fa fa-star-o" aria-hidden="true"></i> 推荐</div>
+				<hr>
+				<div id="recommand_list">
+					<a href=""><div><img src="img/index/t1.jpg"><p>盾之勇者成名录</p></div></a>
+					<a href=""><div><img src="img/index/t2.jpg"><p>这个是僵尸吗</p></div></a>
+					<a href=""><div><img src="img/index/t3.jpg"><p>狼与香辛料</p></div></a>
+					<a href=""><div><img src="img/index/t4.jpg"><p>埃罗芒阿老师</p></div></a>
+					<a href=""><div><img src="img/index/t5.jpg"><p>龙之界点</p></div></a>
+				</div>
+			</div>
+		</div>
+		<div class="topic">	
+			<h2><i class="fa fa-tags" aria-hidden="true"></i> 漫画 <span>Comic</span></h2>		<!--参考梦次元-->
+			<hr id="h2_hr">
+			<div class="new_topic">
+				<div id="topic_div">
+					<div><a href="">新主题</a></div>
+					<div><a href="">新回复</a></div>
+					<div><a href="">热门</a></div>
+					<div><a href="">推荐</a></div>
+				</div>
+				<hr>
+				<div id="new_list">
+					<div>
+						<div>
+							<p><a href="">【生肉】一拳超人 重制版 116话</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【汉化】一拳超人 重制版 116话</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【pixiv】P站画师推荐：Miv4t</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【汉化】治愈魔法的错误使用方法 1话</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+					</div>
+					<div>
+						<div>
+							<p><a href="">【资讯】一拳超人第二季制作决定</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【推荐】狼与香辛料</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【同人】赫萝</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+						<div>
+							<p><a href="">【汉化】龙王的工作！ 8话</a></p>
+							<span>
+								<i class="fa fa-calendar" aria-hidden="true"></i> 6-2 • 
+								<i class="fa fa-clock-o" aria-hidden="true"></i> 21:05 • 
+								<i class="fa fa-user" aria-hidden="true"></i> 这是马甲 
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="topic_main">
+				<div class="topic_section">
+					<img src="img/index/c1.jpg">
+					<h3>漫画发布</h3>
+					<table>
+						<tr>
+							<th><a href="#">最新发布</a></th>
+							<th><a href="#">连载漫画</a></th>
+							<th><a href="#">动画化专题</a></th>
+						</tr>
+						<tr>
+							<th><a href="#">完结漫画</a></th>
+							<th><a href="#">经典推荐</a></th>
+							<th><a href="#">轻小说改编</a></th>
+						</tr>
+					</table>
+				</div>
+				<div class="topic_section">
+					<img src="img/index/c2.jpg">
+					<h3>漫画资讯</h3>
+					<table>
+						<tr>
+							<th><a href="#">最新资讯</a></th>
+							<th><a href="#">话题讨论</a></th>
+							<th><a href="#">新漫推荐</a></th>
+						</tr>
+						<tr>
+							<th><a href="#">热点专题</a></th>
+							<th><a href="#">趣闻</a></th>
+							<th><a href="#"></a></th>
+						</tr>
+					</table>
+				</div>
+				<div class="topic_section">
+					<img src="img/index/c3.jpg">
+					<h3>同人专区</h3>
+					<table>
+						<tr>
+							<th><a href="#">C91</a></th>
+							<th><a href="#">同人连载</a></th>
+							<th><a href="#">同人作品</a></th>
+						</tr>
+						<tr>
+							<th><a href="#">pixiv推荐</a></th>
+							<th><a href="#">图享</a></th>
+							<th><a href="#">和谐区</a></th>
+						</tr>
+					</table>
+				</div>
+				<div class="topic_section">
+					<img src="img/index/c4.jpg">
+					<h3>汉化组专区</h3>
+					<table>
+						<tr>
+							<th><a href="#">脸肿</a></th>
+							<th><a href="#">瑞树</a></th>
+							<th><a href="#">灰机</a></th>
+						</tr>
+						<tr>
+							<th><a href="#">不良</a></th>
+							<th><a href="#">王样</a></th>
+							<th><a href="#">没有</a></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<h2>友情链接</h2>
+		<div>
+			<a href="#">Bilibili</a>
+			<a href="#">HTML5UP</a>
+			<a href="#">动漫之家</a>
+		</div>
+
+		<h2>网站推荐</h2>
+		<div>
+			<a href="#">梦次元acg</a>
+			<a href="#">轻之国度</a>
+			<a href="#">维基百科</a>
+		</div>
+
+		<h2>与我联系</h2>
+		<div>
+			<a href="">E-mail</a>
+			<a href="">QQ</a>
+			<a href="">收件地址</a>
+		</div>
+	</footer>
 </div>
 
+<script >
+
+myFocus.set({
+
+    id: 'boxID',//焦点图盒子ID
+
+    pattern: 'mF_taobao2010',//焦点图风格的名称
+
+    time: 5,//切换时间间隔(秒)
+
+    trigger: 'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+
+    delay: 200,//'mouseover'模式下的切换延迟(毫秒)
+
+    txtHeight: 'default'//标题高度设置(像素),'default'为默认CSS高度，0为隐藏
+
+});
+</script>
 
 </body>
 </html>

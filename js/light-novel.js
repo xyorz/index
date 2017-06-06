@@ -12,6 +12,7 @@ var createImg = function(sc,num){
 		})	
 	})
 }
+
 createImg(1,1)
 createImg(1,2)
 createImg(1,3)
